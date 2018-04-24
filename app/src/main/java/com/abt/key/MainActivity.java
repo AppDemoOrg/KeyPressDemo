@@ -126,13 +126,9 @@ public class MainActivity extends AppCompatActivity {
                 if (enableLongPressAction()) {
                     onLongPressAction();
                 } else {
-                    //jumpToLauncher();
-                /* package="com.android.launcher3">
-                com.android.launcher3.Launcher*/
                     String pkgLauncher = "com.android.launcher3";
                     String pkgSettings = "com.android.settings";
                     //getActivities(MainActivity.this, pkgSettings);
-
                     //ActivityUtils.startHomeActivity();
                     startAPPFromPackageName(MainActivity.this, pkgSettings);
                     jumpToLauncherAction();
@@ -204,7 +200,6 @@ public class MainActivity extends AppCompatActivity {
     protected boolean enableLongPressAction() {
         return false;
     }
-
     protected void onLongPressAction() { }
     protected void jumpToLauncherAction() { }
 

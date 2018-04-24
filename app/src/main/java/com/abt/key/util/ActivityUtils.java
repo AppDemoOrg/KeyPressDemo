@@ -18,7 +18,7 @@ import android.view.View;
 import java.util.List;
 
 /**
- * @描述： @
+ * @描述： @ ActivityUtils
  * @作者： @黄卫旗
  * @创建时间： @2018/4/24
  */

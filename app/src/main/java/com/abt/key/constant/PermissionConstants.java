@@ -8,7 +8,7 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
 /**
- * @描述： @
+ * @描述： @ PermissionConstants
  * @作者： @黄卫旗
  * @创建时间： @2018/4/24
  */
